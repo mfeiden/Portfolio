@@ -1,0 +1,36 @@
+/* ---- navigation ---- */
+.navbar {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.navbar-brand,
+.nav-item,
+.nav-link {
+  font-size: 18px;
+  color: #222;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 767.9px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
+
+.nav-link:hover {
+  color: #0051ba;
+  font-weight: 500;
+}
+
+.navbar-toggler.collapsed > .close,
+.navbar-toggler:not(.collapsed) i {
+  display: none;
+}
+
+.navbar-toggler:not(.active) {
+  outline: none;
+}
